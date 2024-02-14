@@ -1,5 +1,6 @@
 ﻿using StoreConePantallas.Services;
 using StoreConePantallas.Views;
+using StoreConePantallas.Vistas;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -14,7 +15,7 @@ namespace StoreConePantallas
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new RegistrarUsua();
         }
 
         protected override void OnStart()
