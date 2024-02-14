@@ -14,7 +14,7 @@ namespace StoreConePantallas
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new Vrmermas();
         }
 
         protected override void OnStart()
