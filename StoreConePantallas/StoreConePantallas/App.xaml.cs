@@ -24,6 +24,7 @@ namespace StoreConePantallas
         protected override void OnSleep()
         {
         }
+        //asdad
 
         protected override void OnResume()
         {
