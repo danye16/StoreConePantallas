@@ -10,24 +10,15 @@
             <Image IsOpaque="True" Opacity=".6" Source="https://i.ibb.co/KsJXy5T/cajas.jpg" Aspect="AspectFill" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
             <Grid RowDefinitions="80,*,auto">
                 <Grid>
-                    <magic:GradientView VerticalOptions="FillAndExpand">
-                        <magic:GradientView.GradientSource>
-                            <magic:LinearGradient Angle="180">
-                                <magic:GradientStop Color="#b43a3a" Offset=".16"></magic:GradientStop>
-                                <magic:GradientStop Color="#fd8d1d" Offset=".64"></magic:GradientStop>
-                                <magic:GradientStop Color="#fc6e45" Offset=".82"></magic:GradientStop>
-
-                            </magic:LinearGradient>
-                        </magic:GradientView.GradientSource>
-                    </magic:GradientView>
-                    <StackLayout   Orientation="Horizontal" Padding="5">
+                   
+                    <StackLayout BackgroundColor="Maroon"  Orientation="Horizontal" Padding="5">
                         <Image Source="https://i.ibb.co/vh18Bqc/pngwing-com.png"></Image>
-                        <Image Margin="230,0,0,0"  IsOpaque="True" Source="https://i.ibb.co/0MtrR1f/logo-2.png"  HeightRequest="50"></Image>
+                        <Image Margin="210,0,0,0"  IsOpaque="True" Source="https://i.ibb.co/0MtrR1f/logo-2.png"  HeightRequest="50"></Image>
                         <Label  Text="StoreCone" TextColor="AliceBlue" FontFamily="kawaii" FontAttributes="Italic" FontSize="40" />
                     </StackLayout>
                 </Grid>
 
-                <StackLayout Margin="20,0" Spacing="2" Grid.Row="1" Orientation="Vertical">
+                <StackLayout Margin="20,0" Spacing="1" Grid.Row="1" Orientation="Vertical">
                     <Label Text="Nombre de Usuario" FontSize="16" TextColor="Brown" FontAttributes="Bold"/>
                     <Entry FontSize="16" TextColor="Black" Placeholder="Ingrese su nombre" FontAttributes="Bold"/>
                     <Label Text="Correo" FontSize="16" TextColor="Brown" FontAttributes="Bold"/>
@@ -37,8 +28,9 @@
                     <Label Text="Confirmar contraseña" FontSize="16" TextColor="Brown" FontAttributes="Bold"/>
                     <Entry FontSize="16" TextColor="Black" Placeholder="Ingrese su contraseña" FontAttributes="Bold"/>
                 </StackLayout>
-                <StackLayout Grid.Row="2" Padding="0,10" VerticalOptions="End" HorizontalOptions="Center">
-                    <Button Text="Registrar" FontAttributes="Italic" BackgroundColor="Brown" CornerRadius="20" HeightRequest="50" WidthRequest="200" />
+                <StackLayout Grid.Row="2" Padding="0" VerticalOptions="End" HorizontalOptions="Center">
+                    
+                    <Image Source="https://i.ibb.co/Nry0rHZ/boton.png" HeightRequest="90" WidthRequest="250"></Image>
                 </StackLayout>
             </Grid>
         </Grid>
