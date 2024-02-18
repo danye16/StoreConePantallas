@@ -15,7 +15,7 @@ namespace StoreConePantallas
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new ListaProductos();
+            MainPage = new RegiProducto();
         }
 
         protected override void OnStart()
